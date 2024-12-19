@@ -27,4 +27,5 @@ export default defineConfig({
     ],
   },
   base: "/baseCom.github.io/",
+  markdown: {},
 });
