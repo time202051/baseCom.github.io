@@ -3,7 +3,8 @@ import { defineConfig } from "vitepress";
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
   title: "baseCom",
-  description: "这是基于elementUi二次封装的常用组件",
+  description:
+    "这是基于elementUi二次封装的常用组件,鄂雨航和崽崽的空间,欢迎来访",
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     nav: [
