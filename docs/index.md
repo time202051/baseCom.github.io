@@ -4,7 +4,7 @@ layout: home
 
 hero:
   name: "baseCom"
-  text: "这是基于elementUi二次封装的常用组件1"
+  text: "这是基于elementUi二次封装的常用组件,鄂雨航和崽崽的空间,欢迎来访"
   tagline: My great project tagline
   actions:
     - theme: brand
