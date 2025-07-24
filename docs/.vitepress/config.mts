@@ -26,6 +26,6 @@ export default defineConfig({
       { icon: "github", link: "https://github.com/vuejs/vitepress" },
     ],
   },
-  base: "/baseCom/",
+  base: "/baseCom.github.io/",
   markdown: {},
 });
