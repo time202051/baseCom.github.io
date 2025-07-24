@@ -51,6 +51,7 @@ jobs:
         uses: actions/upload-pages-artifact@v3
         with:
           path: docs/.vitepress/dist
+          name: github-pages-${{ github.run_id }} # 使用唯一的工件名称
 
   # 部署工作
   deploy:
