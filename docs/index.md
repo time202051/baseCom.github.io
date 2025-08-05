@@ -3,22 +3,43 @@
 layout: home
 
 hero:
-  name: "baseCom"
-  text: "鄂雨航和崽崽的空间,欢迎来访"
-  tagline: My great project tagline
+  name: "ol-base-components"
+  text: "通用智能组件库"
+  tagline: "基于 Element-UI 的高效表格、表单、搜索、弹框等通用组件，支持 Swagger 自动生成表头，npx 脚本一键生成 API"
+  image:
+    src: /logo.svg
+    alt: ol-base-components logo
   actions:
     - theme: brand
-      text: 鄂雨航
-      link: /markdown-examples
+      text: 快速上手
+      link: /guide/quickstart
     - theme: alt
-      text: 崽崽
-      link: /api-examples
+      text: 组件文档
+      link: /components/table
 
 features:
-  - title: 鄂雨航
-    details: 大家好，我是鄂雨航！我非常喜欢崽崽这只可爱的白色小体飞耳比熊犬。崽崽总是带给我快乐，和它在一起的时候，我的心情总是特别好。它的呆萌样子和活泼性格让我忍不住想要给它更多的爱和关注。希望能和崽崽一起度过很多美好的时光，分享快乐和温暖！
-  - title: 崽崽
-    details: 大家好，我是崽崽，一只可爱的白色小体飞耳比熊犬！我有着一身柔软的白色毛发和一双灵动的大眼睛，时刻准备着和大家撒娇。我的耳朵像小翅膀一样，总是竖得很高，非常可爱哦！我喜欢在阳光下奔跑，和小伙伴们一起玩耍，最喜欢的事情就是得到主人的宠爱和零食。希望能和大家一起度过快乐的时光！汪汪！
-  - title: 大崽崽
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
+  - title: 🚀 极速集成
+    details: 一行代码即可引入，支持 Vue2，开箱即用，极大提升开发效率。
+  - title: 🔥 多级表头 & Swagger 支持
+    details: 支持多级表头、动态列显示隐藏、自动从 Swagger 生成表头字段，满足企业级复杂场景。
+  - title: 🌈 丰富的组件
+    details: 提供表格、表单、弹窗、搜索框等常用组件，API 友好，文档详细，助你高效开发。
+  - title: 🔍 搜索框组件
+    details: 灵活配置的搜索表单，支持多种输入类型（文本、下拉、日期、树形选择等），可与表格无缝联动，满足各种业务场景。
+  - title: 💬 弹框组件
+    details: 支持表单弹窗、动态表单项、校验、拖拽、宽度自定义等，适用于新增、编辑、详情等多种弹窗场景，极大提升交互体验。
+  - title: ⚡ npx 脚本一键生成
+    details: 提供 npx 脚本，自动生成 API 接口和模块文件，支持 Swagger，一键完成初始化和模块创建，开发更高效。
 ---
+
+## 为什么选择 ol-base-components？
+
+- 企业级最佳实践，适配多种业务场景
+- 代码简洁，文档完善，上手即用
+- 支持 Swagger 自动生成表头和搜索项，省去繁琐配置
+- 丰富的插槽和自定义能力，满足个性化需求
+- npx 脚本一键生成，开发效率飞跃提升
+
+---
+
+如需详细文档和示例，请点击上方“快速上手”或“组件文档”按钮开始体验吧！

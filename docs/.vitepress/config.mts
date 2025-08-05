@@ -4,7 +4,7 @@ import { defineConfig } from "vitepress";
 export default defineConfig({
   title: "baseCom",
   description:
-    "这是基于elementUi二次封装的常用组件,鄂雨航和崽崽的空间,欢迎来访",
+    "基于 Element-UI 的高效表格、表单、搜索、弹框等通用组件，支持 Swagger 自动生成表头，npx 脚本一键生成 API",
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     nav: [
