@@ -11,11 +11,11 @@ hero:
     alt: ol-base-components logo
   actions:
     - theme: brand
-      text: 快速上手
-      link: /guide/quickstart
+      text: 什么是ol-base
+      link: /guide/what-is-ol-base
     - theme: alt
-      text: 组件文档
-      link: /components/table
+      text: 快速开始
+      link: /guide/what-is-ol-base
 
 features:
   - title: 🚀 极速集成
