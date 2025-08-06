@@ -5,7 +5,7 @@ layout: home
 hero:
   name: "ol-base-components"
   text: "通用智能组件库"
-  tagline: "基于 Element-UI 的高效表格、表单、搜索、弹框等通用组件，支持 Swagger 自动生成表头，npx 脚本一键生成 API"
+  tagline: "基于 Element-UI 的高效表格、表单、搜索、弹框等通用组件，支持 Swagger 自动生成搜索框和表格，npx 脚本一键生成可直接发布的页面"
   image:
     src: /logo.svg
     alt: ol-base-components logo
