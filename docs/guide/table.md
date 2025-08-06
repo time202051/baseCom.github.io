@@ -291,6 +291,10 @@ export default {
 </script>
 ```
 
+### 效果图
+
+![效果图](/assets/duojibiaotou.png)
+
 ## 动态列显示控制
 
 通过 `beforeProp` 属性控制多级表头的位置：
@@ -576,6 +580,10 @@ export default {
 | 参数  | 说明                                       | 类型   | 可选值 | 默认值 |
 | ----- | ------------------------------------------ | ------ | ------ | ------ |
 | `url` | Swagger API 地址，用于自动生成表头和搜索项 | string | —      | —      |
+
+### 效果图
+
+![效果图](/assets/effectPicture.png)
 
 ### 自动生成规则
 
