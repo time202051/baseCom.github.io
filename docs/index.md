@@ -15,7 +15,7 @@ hero:
       link: /guide/what-is-ol-base
     - theme: alt
       text: 快速开始
-      link: /guide/what-is-ol-base
+      link: /guide/getting-started
 
 features:
   - title: 🚀 极速集成
