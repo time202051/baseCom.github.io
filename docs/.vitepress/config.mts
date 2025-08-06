@@ -39,7 +39,7 @@ export default defineConfig({
     ],
 
     socialLinks: [
-      { icon: "github", link: "https://github.com/vuejs/vitepress" },
+      { icon: "github", link: "https://github.com/time202051/base-component" },
     ],
     footer: {
       message: "基于 MIT 许可发布",
