@@ -8,8 +8,8 @@ export default defineConfig({
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     nav: [
-      { text: "Home", link: "/" },
-      { text: "Examples", link: "/markdown-examples" },
+      { text: "首页", link: "/" },
+      { text: "指引", link: "/markdown-examples" },
     ],
 
     sidebar: [
@@ -42,8 +42,8 @@ export default defineConfig({
       { icon: "github", link: "https://github.com/vuejs/vitepress" },
     ],
     footer: {
-      message: "Released under the MIT License.",
-      copyright: "Copyright © 2025-present lijiapeng",
+      message: "基于 MIT 许可发布",
+      copyright: "版权所有 © 2025-present lijiapeng",
     },
     search: {
       provider: "local",

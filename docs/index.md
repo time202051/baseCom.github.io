@@ -4,8 +4,8 @@ layout: home
 
 hero:
   name: "ol-base-components"
-  text: "通用智能组件库"
-  tagline: "基于 Element-UI 的高效表格、表单、搜索、弹框等通用组件，支持 Swagger 自动生成搜索框和表格，npx 脚本一键生成可直接发布的页面"
+  text: "前后端联调解决方案"
+  tagline: "基于 Element-UI 的高效表格、搜索等通用组件，支持 Swagger 自动生成搜索框和表格以及接口。"
   image:
     src: /assets/logo.png
     alt: ol-base-components logo
@@ -31,15 +31,3 @@ features:
   - title: ⚡ npx 脚本一键生成
     details: 提供 npx 脚本，自动生成 API 接口和模块文件，支持 Swagger，一键完成初始化和模块创建，开发更高效。
 ---
-
-## 为什么选择 ol-base-components？
-
-- 企业级最佳实践，适配多种业务场景
-- 代码简洁，文档完善，上手即用
-- 支持 Swagger 自动生成表头和搜索项，省去繁琐配置
-- 丰富的插槽和自定义能力，满足个性化需求
-- npx 脚本一键生成，开发效率飞跃提升
-
----
-
-如需详细文档和示例，请点击上方“快速开始”按钮开始体验吧！
