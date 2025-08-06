@@ -11,7 +11,7 @@ hero:
     alt: ol-base-components logo
   actions:
     - theme: brand
-      text: 什么是ol-base
+      text: 什么是ol-base-components
       link: /guide/what-is-ol-base
     - theme: alt
       text: 快速开始

@@ -2,7 +2,7 @@ import { defineConfig } from "vitepress";
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
-  title: "ol-base",
+  title: "ol-base-components",
   description:
     "基于 Element-UI 的高效表格、表单、搜索、弹框等通用组件，支持 Swagger 自动生成表头，npx 脚本一键生成 API",
   themeConfig: {
@@ -16,7 +16,7 @@ export default defineConfig({
       {
         text: "简介",
         items: [
-          { text: "什么是ol-base", link: "/guide/what-is-ol-base" },
+          { text: "什么是ol-base-components", link: "/guide/what-is-ol-base" },
           { text: "快速开始", link: "/guide/getting-started" },
         ],
       },
