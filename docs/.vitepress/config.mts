@@ -9,7 +9,7 @@ export default defineConfig({
     // https://vitepress.dev/reference/default-theme-config
     nav: [
       { text: "首页", link: "/" },
-      { text: "指引", link: "/markdown-examples" },
+      { text: "指引", link: "/guide/what-is-ol-base" },
     ],
 
     sidebar: [
