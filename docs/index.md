@@ -7,7 +7,7 @@ hero:
   text: "通用智能组件库"
   tagline: "基于 Element-UI 的高效表格、表单、搜索、弹框等通用组件，支持 Swagger 自动生成搜索框和表格，npx 脚本一键生成可直接发布的页面"
   image:
-    src: /logo.svg
+    src: /assets/logo.png
     alt: ol-base-components logo
   actions:
     - theme: brand
@@ -42,4 +42,4 @@ features:
 
 ---
 
-如需详细文档和示例，请点击上方“快速上手”或“组件文档”按钮开始体验吧！
+如需详细文档和示例，请点击上方“快速开始”按钮开始体验吧！

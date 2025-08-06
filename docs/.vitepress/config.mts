@@ -43,12 +43,12 @@ export default defineConfig({
     ],
     footer: {
       message: "Released under the MIT License.",
-      copyright: "Copyright © 2019-present Evan You",
+      copyright: "Copyright © 2025-present lijiapeng",
     },
     search: {
       provider: "local",
     },
-    logo: "/logo.svg",
+    logo: "/assets/logo.png",
   },
   base: "/baseCom.github.io/",
   markdown: {},
