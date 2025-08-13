@@ -7,7 +7,7 @@ hero:
   text: "无需联调的CURD页面"
   tagline: "基于 Element-UI 的企业级开发框架。交互式命令行方式自动生成完整页面，无需手动联调，几秒完成页面。"
   image:
-    src: /assets/logo.png
+    src: ./assets/logo.png
     alt: ol-base-components logo
   actions:
     - theme: brand
