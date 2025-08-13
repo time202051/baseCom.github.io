@@ -4,7 +4,7 @@ layout: home
 
 hero:
   name: "ol-base-components"
-  text: "无需联调的CURD页面"
+  text: "无需联调的CRUD页面"
   tagline: "基于 Element-UI 的企业级开发框架。交互式命令行方式自动生成完整页面，无需手动联调，几秒完成页面。"
   image:
     src: /logo.svg
@@ -21,7 +21,7 @@ features:
   - title: 🚀 极速集成
     details: 简单易用，支持 Vue2，开箱即用，极大提升开发效率。
   - title: ⚡ npx 脚本一键生成
-    details: 提供 npx 脚本，自动生成 API 接口和模块文件。交互式命令行方式直接生成完整的CURD页面
+    details: 提供 npx 脚本，自动生成 API 接口和模块文件。交互式命令行方式直接生成完整的CRUD页面
   - title: 🌈 丰富的组件
     details: 提供表格、表单、弹窗、搜索框等常用组件，API 友好，文档详细，助你高效开发。
   - title: 🔥 多级表头 & Swagger 支持
