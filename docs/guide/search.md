@@ -1,6 +1,11 @@
 # Search 搜索组件
 
-基于 Element UI 的 `el-form` 二次封装的搜索组件，支持多种输入类型、动态生成搜索项、展开收起等功能。
+ol-search 组件支持与 Swagger API 集成，自动生成搜索框配置，极大提升开发效率。
+
+## 效果图
+
+![效果图](/assets/search.png)
+
 
 ## 基础用法
 
@@ -495,7 +500,7 @@ export default {
 </script>
 ```
 
-## API
+## API说明
 
 ### Props
 

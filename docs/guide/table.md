@@ -1,6 +1,10 @@
-# Table 表格组件 - Swagger 集成
+# Table 表格组件
 
 ol-table 组件支持与 Swagger API 集成，自动生成表头和搜索项，极大提升开发效率。
+
+## 效果图
+
+![效果图](/assets/effectPicture.png)
 
 ## 基础用法
 
@@ -581,9 +585,7 @@ export default {
 | ----- | ------------------------------------------ | ------ | ------ | ------ |
 | `url` | Swagger API 地址，用于自动生成表头和搜索项 | string | —      | —      |
 
-### 效果图
 
-![效果图](/assets/effectPicture.png)
 
 ### 自动生成规则
 

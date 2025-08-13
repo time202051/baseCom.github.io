@@ -5,6 +5,11 @@ export default defineConfig({
   title: "ol-base-components",
   description:
     "基于 Element-UI 的高效表格、表单、搜索、弹框等通用组件，支持 Swagger 自动生成表头，npx 脚本一键生成 API",
+  head: [
+    ["link", { rel: "icon", href: "/assets/logo.png" }],
+    // 或者使用 SVG 格式
+    // ['link', { rel: 'icon', type: 'image/svg+xml', href: '/logo.svg' }],
+  ],
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     nav: [
@@ -25,6 +30,7 @@ export default defineConfig({
         items: [
           { text: "ol-table", link: "/guide/table" },
           { text: "ol-search", link: "/guide/search" },
+          { text: "ol-form", link: "/guide/form" },
         ],
       },
       {
