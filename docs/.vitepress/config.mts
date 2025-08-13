@@ -6,7 +6,7 @@ export default defineConfig({
   description:
     "基于 Element-UI 的高效表格、表单、搜索、弹框等通用组件，支持 Swagger 自动生成表头，npx 脚本一键生成 API",
   head: [
-    ["link", { rel: "icon", href: "./assets/logo.png" }],
+    ["link", { rel: "icon", href: "/baseCom.github.io/logo.svg" }],
     // 或者使用 SVG 格式
     // ['link', { rel: 'icon', type: 'image/svg+xml', href: '/logo.svg' }],
   ],
@@ -54,7 +54,7 @@ export default defineConfig({
     search: {
       provider: "local",
     },
-    logo: "./assets/logo.png",
+    logo: "/logo.svg",
   },
   base: "/baseCom.github.io/",
   markdown: {},
