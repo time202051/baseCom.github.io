@@ -42,6 +42,12 @@ export default defineConfig({
           { text: "add", link: "/script/add" },
         ],
       },
+      {
+        text: "vscode插件",
+        items: [
+          { text: "vue-page-generator", link: "/vscode/vuePageGenerator" },
+        ],
+      },
     ],
 
     socialLinks: [
@@ -56,6 +62,7 @@ export default defineConfig({
     },
     logo: "/logo.svg",
   },
+  lastUpdated: true,
   base: "/baseCom.github.io/",
   markdown: {},
 });
