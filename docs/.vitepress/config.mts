@@ -15,6 +15,12 @@ export default defineConfig({
     nav: [
       { text: "首页", link: "/" },
       { text: "指引", link: "/guide/what-is-ol-base" },
+      {
+        text: '推荐连接',
+        items: [
+          { text: 'copy encryption cracking 破解复制加密', link: '/copyEncryptionCracking/index' },
+        ]
+      }
     ],
 
     sidebar: [
