@@ -36,7 +36,15 @@ export default defineConfig({
         items: [
           { text: "ol-table", link: "/guide/table" },
           { text: "ol-search", link: "/guide/search" },
+          { text: "ol-customSearch", link: "/guide/customSearch" },
           { text: "ol-form", link: "/guide/form" },
+          { text: "ol-print", link: "/guide/print" },
+        ],
+      },
+      {
+        text: "配置",
+        items: [
+          { text: "全局配置", link: "/guide/config" },
         ],
       },
       {

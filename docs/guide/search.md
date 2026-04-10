@@ -2,8 +2,8 @@
 
 通过 Swagger 自动生成搜索框，极大提升开发效率。
 
-  - 支持自动对接`el-select` 的下拉数据, 通过字典数据
-  - 范围时间自动转换（数组 ⇄ xxxxxBegin/xxxxxEnd）
+- 支持自动对接`el-select` 的下拉数据, 通过字典数据
+- 范围时间自动转换（数组 ⇄ xxxxxBegin/xxxxxEnd）
 
 ::: tip
 **痛点**：部分接口要求前端提交形如 `xxxxxBegin` 和 `xxxxxEnd` 的字符串字段，而前端在表单里通常以"时间范围数组"的形式维护。
@@ -24,10 +24,12 @@
 ```vue
 <template>
   <ol-search
-    :url="swaggerUrl.getUserList"
+    :url="swaggerUrl.xxxxx"
     :form-search-data="formSearchData"
     @handleSearch="handleSearch"
     @handleReset="handleReset"
+    :onSwagger="onSwagger"
+    :onMerged="onMerged"
   />
 </template>
 
@@ -54,6 +56,15 @@ export default {
     handleReset() {
       console.log("重置搜索");
     },
+    onSwagger({ columns }) {
+      // 这里可以处理swagger的字段
+      const temp = columns.filter((item) => !/[a-zA-Z]/.test(item.description)); // 去除包含字母的字段
+      return temp;
+    },
+    onMerged({ columns }) {
+      // 这里可以处理columns
+      return columns;
+    },
   },
 };
 </script>
@@ -63,11 +74,12 @@ export default {
 
 ### Props
 
-| 参数               | 说明                                 | 类型   | 可选值 | 默认值 |
-| ------------------ | ------------------------------------ | ------ | ------ | ------ |
-| `url`              | Swagger API 地址，用于自动生成搜索项 | string | —      | —      |
-| `formSearchData`   | 搜索表单配置                         | object | —      | —      |
-| `tableSearchSlice` | 默认显示的搜索项数量                 | number | —      | 4      |
+| 参数             | 说明                                                     | 类型     | 可选值 | 默认值 |
+| ---------------- | -------------------------------------------------------- | -------- | ------ | ------ |
+| `url`            | Swagger API 地址，用于自动生成搜索项                     | string   | —      | —      |
+| `formSearchData` | 搜索表单配置                                             | object   | —      | —      |
+| `onSwagger`      | 自定义处理 Swagger 字段，处理后的渲染数据需要return出去  | function | —      | —      |
+| `onMerged`       | 自定义处理合并后的搜索项，处理后的渲染数据需要return出去 | function | —      | —      |
 
 #### formSearchData 属性
 
@@ -340,20 +352,3 @@ export default {
 };
 </script>
 ```
-
-## 注意事项
-
-1. **Swagger 集成**：提供 `url` 属性时，会自动从 Swagger API 生成搜索项
-2. **时间处理**：日期范围会自动转换为 `beginTime` 和 `endTime`
-3. **表单验证**：支持 Element UI Form 的所有验证规则
-4. **展开收起**：通过 `expendShow` 和 `tableSearchSlice` 控制显示数量
-5. **远程搜索**：支持下拉框的远程搜索和加载更多功能
-6. **数字输入**：自动限制数字输入范围，防止非法字符
-
-## 最佳实践
-
-1. **统一管理**：将搜索配置统一管理，便于维护
-2. **合理布局**：根据搜索项数量合理设置 `tableSearchSlice`
-3. **性能优化**：远程搜索时添加防抖处理
-4. **用户体验**：为必填项添加验证，为可选项设置默认值
-5. **数据格式**：注意时间范围的数据格式转换
