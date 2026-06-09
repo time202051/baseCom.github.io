@@ -34,6 +34,7 @@ export default defineConfig({
       {
         text: "组件",
         items: [
+          { text: "ol-crud", link: "/guide/crud" },
           { text: "ol-table", link: "/guide/table" },
           { text: "ol-search", link: "/guide/search" },
           { text: "ol-customSearch", link: "/guide/customSearch" },
