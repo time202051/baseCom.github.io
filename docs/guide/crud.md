@@ -826,7 +826,7 @@ Vue.use(OlBaseComponents, {
 | `method` | `String` | `'get'` | 请求方式 `'get'` / `'post'` |
 | `pageParams` | `Object` | `{ page:'Page', limit:'MaxResultCount' }` | 分页参数名映射 |
 | `pageSizes` | `Array` | `[20,30,40,60,100,200]` | 每页条数选项 |
-| `pagination` | `Object` | `{ page:1, limit:30, total:0, show:true }` | 分页初始值，主要 `limit` 和 `show` 有用 |
+| `pagination` | `Object` | `{ page:1, limit:20, total:0, show:true }` | 分页初始值，主要 `limit` 和 `show` 有用 |
 | `columnConfigMode` | `String` | `'simple'` | 列配置模式 `'simple'` / `'persisted'` |
 | `showSearch` | `Boolean` | `true` | 显示搜索栏 |
 | `showSelection` | `Boolean` | `true` | 显示多选列 |
@@ -865,7 +865,7 @@ Vue.use(OlBaseComponents, {
 | `operates` | `Array` | `[]` | 操作列按钮 `Operate[]`，见[操作列](#操作列) |
 | `operatesAttrs` | `Object` | `{}` | 操作列属性，透传 `el-table-column` |
 | `tableAttrs` | `Object` | `{}` | 透传 `el-table`，如 `{ 'row-key': 'id' }` |
-| `pagination` | `Object` | `{ page:1, limit:30, total:0, show:true }` | 分页，支持 `.sync` |
+| `pagination` | `Object` | `{ page:1, limit:20, total:0, show:true }` | 分页，支持 `.sync` |
 | `pageSizes` | `Array` | `[20,30,40,60,100,200]` | 每页条数选项 |
 | `showRefreshBtn` | `Boolean` | `true` | 显示刷新，支持全局配置 |
 | `showPrintBtn` | `Boolean` | `true` | 显示打印，支持全局配置 |
